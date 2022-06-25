@@ -1,10 +1,10 @@
 # RN_hackathon
 Little competition between students.  
-### Goal - based on signals type (aka clusters) calculate reservoir depths.
+### Goal - based on signals type (aka clusters aka well logging type) calculate reservoir depths.
 
 #### 1 Task:
 
-With clusterisation algorithms determine type of signal (aka well logging type)  
+With clusterisation algorithms determine type of signal  
 I used simplest - knn
 
 #### 2 Task:
