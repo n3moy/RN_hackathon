@@ -1,5 +1,5 @@
 # RN_hackathon
-Little competition between students.\n
+Little competition between students.
 Goal - based on signals type (aka clusters) calculate reservoir depths.
 
 #1 Task:
