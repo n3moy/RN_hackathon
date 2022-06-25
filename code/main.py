@@ -36,13 +36,11 @@ def k_neighbors_clustering(data_in: pd.DataFrame, do_plot: bool = False):
     train_data = data[data["target_cluster"] != -1]
     test_data = data[data["target_cluster"] == -1]
     X_train, y_train = train_data.drop(
-        ["signal_id", "target_cluster", "target_point_1", "target_point_2", "target_point_3", "target_point_4", "X",
-         "Y"],
+        ["signal_id", "target_cluster", "target_point_1", "target_point_2", "target_point_3", "target_point_4", "X", "Y"],
         axis=1
     ), train_data["target_cluster"]
     X_test = test_data.drop(
-        ["signal_id", "target_cluster", "target_point_1", "target_point_2", "target_point_3", "target_point_4", "X",
-         "Y"],
+        ["signal_id", "target_cluster", "target_point_1", "target_point_2", "target_point_3", "target_point_4", "X", "Y"],
         axis=1
     )
     k_neigh = KNeighborsClassifier(n_neighbors=3)
